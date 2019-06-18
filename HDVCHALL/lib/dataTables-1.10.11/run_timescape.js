@@ -34,7 +34,7 @@ function _run_timescape(view_id, width, height, userConfig) {
 	    topBarHeight: 30, // height of top panel
 	    topBarColour: "#D9D9D9",
 	    topBarHighlight: "#C6C6C6",
-	    viewTitle: "TIMESCAPE",
+      viewTitle: "Clonal Evolution in a Very Late Relapsing B-ALL Patient",
 	    titleFontSize: 15
 	};
 
