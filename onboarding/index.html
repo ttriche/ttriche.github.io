@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title> Hi!  This is Tim's shitty onboarding document! </title>
+    <title> Hi!  This is a very rough draft of a lab onboarding page! </title>
   </head>
   <body>
     
@@ -11,28 +11,104 @@
     great arti^H^H^H^Hscientists and steal their stuff.
     </p>
 
-    <h1> PROBLEM BASED LEARNING OPPORTUNITY! </h1>
-    <p> 
-      <ul>
-        <li>join the <a href="https://github.com/trichelab/">trichelab</a>
-          organization on GitHub</li>
-        <li> Check out the repository trichelab.github.io </li>
-        <li> butcher it, `git commit`, `git push` </li>
-      </ul>
-      * Please don't get us sued if you can help it. 
+    <p>
+    <em>
+      Todo: put this into Jekyll, markdown, or anything that avoids mighty vim!
+    </em>
     </p>
 
+    <h1> PROBLEM BASED LEARNING OPPORTUNITY! </h1>
+    <p> 
+    First things first, if you're doing dry work, you'll need a GitHub ID.
+      <ol>
+        <li>
+          set up a <a href="https://github.com/">GitHub</a> account, 
+          if you don't already have one
+        </li>
+        <li>
+          join the <a href="https://github.com/trichelab/">trichelab</a>
+          organization on GitHub
+        </li>
+        <li>
+          Fork the repository trichelab.github.io (these pages) to your account,
+          edit it (I don't care what you edit, just do something useful), 
+          `git add`, `git commit`, `git push`, and open a pull request against 
+          the parent (trichelab) repository to merge the changes (or not). 
+        </li>
+        <li>
+          Find someone to code review the merge.  Congratulations, you're a 10x 
+          dry lab developer!  (or not... but at least you passed 'hello world') 
+        </li>
+      </ol>
+      Notes: 
+      <ul>
+        <li>
+          Please don't get us sued if you can help it. 
+        </li>
+        <li>
+          Feel free to migrate this dumpster fire to Jekyll or something pretty.
+        </li>
+      </ul>
+    </p>
+
+    <p>
+    Some theftworthy lab onboarding pages:
+    <br />
     <a href="https://github.com/greenelab/onboarding/blob/master/onboarding.md">
       Casey Greene's Lab
     </a>
-
     <br />
-
     <a href="https://fertiglab.com/">Elana's lab</a>
+    </p>
 
     <p>
     What all else can we drag in?  Surely there's rather a lot.
     </p>
+    
+    <p>
+    <em> What kind of computer/OS should I use for dry lab stuff? </em>
+    That all depends -- if you're going to build R packages, just use Linux.
+    <br />
+    The Linux Subsystem for Windows version 2 (LS2) can be enabled on Windows.
+    <br />
+    If you're a normal human being, you can use Mac OS X, but it'll be rough if
+    you later decide to maintain a Bioconductor package (looks good on your CV):
+    <br />
+    <blockquote>
+      The lack of Mac binary packages for R-devel on CRAN together with the
+      high turnover of Mac OS versions are a major PITA and the reason why
+      when R/Bioconductor newbies ask me what OS I recommend for package
+      development I always say Linux, without hesitation. Unless they want to
+      suffer ;-)
+    </blockquote>
+    <br />
+    <em>
+      <a href="https://stat.ethz.ch/pipermail/bioc-devel/2020-January/016010.html">--Herve Pages</a>
+    </em>
+    <br />
+
+    Whatever you use, put a lot of RAM in it, and execute your long-running 
+    jobs on HPC or AWS so that you don't lock up your own machine and miss 
+    deadlines, panic, etc.  Local machines are for exploration and development, 
+    ONLY, and if you don't have multiple copies/backups of code/data/documents
+    (ideally version controlled), it must not be very important.  
+
+    <br />
+
+    The best way I know of to ensure that code, experiments, and manuscripts 
+    (work products) are durable and reproducible is to automate them, and then 
+    set up continuous integration (for code products) so their reproducibility 
+    is either continually verified or an alert raised. We did this for Arkas, 
+    Bioconductor does it for packages, Casey does it for analyses, and Travis 
+    or GitHub Actions can do it for your code/analyses. Get used to it; it
+    sucks to set up but it's a lot better than trying to recreate everything 
+    from scratch when a reviewer squawks 18 months from now. 
+
+    </p>
+
+    <p> 
+    Students, staff, trainees: add what you like here. <em> and open a PR </em>
+    </p> 
 
   </body>
 </html>
