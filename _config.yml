@@ -24,7 +24,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   This page provides basic information on the onboarding process in
   the Triche Lab. If you have any further questions do not hesitate
   to contact members of the lab.
+<<<<<<< HEAD
 baseurl: "Trichelabonboarding.github.io" # the subpath of your site, e.g. /blog
+=======
+baseurl: "trichelab" # the subpath of your site, e.g. /blog
+>>>>>>> 2ec0568 (Add files via upload)
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Tim Triche, Jr.
 github_username:  ttriche
