@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-27T18:04:44-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to the Triche Lab!</title><link href="http://localhost:4000/jekyll/update/2020/04/27/onboardmd.html" rel="alternate" type="text/html" title="Welcome to the Triche Lab!" /><published>2020-04-27T11:36:38-04:00</published><updated>2020-04-27T11:36:38-04:00</updated><id>http://localhost:4000/jekyll/update/2020/04/27/onboardmd</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2020/04/27/onboardmd.html">&lt;h1 id=&quot;getting-started&quot;&gt;Getting Started!&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;First things first, if you're doing dry work, you'll need a GitHub ID.
+  
+set up a GitHub account, if you don't already have one
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;If you are new to GitHub create an account &lt;a href=&quot;https://github.com/join&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Once/if you have an account, join the &lt;a href=&quot;https://github.com/trichelab/&quot;&gt;Triche Lab organization&lt;/a&gt; on GitHub&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Fork the repository trichelab.github.io (these pages) to your account, 
+you can do this by opening a repository and clicking on the &quot;Fork&quot; tab
+on the right hand side of the page, this will allow you to access and 
+edit a repository (I don't care what you edit, just do something useful), 
+`git add`, `git commit`, `git push`, and open a pull request against 
+the parent (trichelab) repository to merge the changes (or not). 
+
+Find someone to code review the merge.  Congratulations, you're a 10x 
+dry lab developer!  (or not... but at least you passed 'hello world') 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;notes&quot;&gt;Notes:&lt;/h3&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Please don't get us sued if you can help it. 
+
+What all else can we drag in?  Surely there's rather a lot.
+
+What kind of computer/OS should I use for dry lab stuff?
+
+That all depends -- if you're going to build R packages, just use Linux.
+   
+The Linux Subsystem for Windows version 2 (LS2) can be enabled on Windows.
+ 
+If you're a normal human being, you can use Mac OS X, but it'll be rough if
+you later decide to maintain a Bioconductor package (looks good on your CV):
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;blockquote&gt;
+
+  &lt;p&gt;The lack of Mac binary packages for R-devel on CRAN together with the
+high turnover of Mac OS versions are a major PITA and the reason why
+when R/Bioconductor newbies ask me what OS I recommend for package
+development I always say Linux, without hesitation. Unless they want to
+suffer ;-)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stat.ethz.ch/pipermail/bioc-devel/2020-January/016010.html&quot;&gt;Herve Pages&lt;/a&gt; Herve Pages&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Whatever you use, put a lot of RAM in it, and execute your long-running 
+jobs on HPC or AWS so that you don't lock up your own machine and miss 
+deadlines, panic, etc.  Local machines are for exploration and development, 
+ONLY, and if you don't have multiple copies/backups of code/data/documents
+(ideally version controlled), it must not be very important.  
+
+The best way I know of to ensure that code, experiments, and manuscripts 
+(work products) are durable and reproducible is to automate them, and then 
+set up continuous integration (for code products) so their reproducibility 
+is either continually verified or an alert raised. We did this for Arkas, 
+Bioconductor does it for packages, Casey does it for analyses, and Travis 
+or GitHub Actions can do it for your code/analyses. Get used to it; it
+sucks to set up but it's a lot better than trying to recreate everything 
+from scratch when a reviewer squawks 18 months from now.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h1 id=&quot;additional-resources&quot;&gt;Additional Resources&lt;/h1&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;If you are working in the dry lab at all you will be working with R, if you have
+not worked with R, and/or have no coding experience, the following links may help
+get you started,
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://repo.miserver.it.umich.edu/cran/&quot;&gt;Download R&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://rstudio.com/products/rstudio/download/#download&quot;&gt;Download the free version of RStudio&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.udemy.com/course/r-basics/&quot;&gt;Free Basic R Tutorials&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;There is also a high chance that you will be working with command line, 
+&quot;5 – FILE AND DIRECTORY COMMANDS&quot; is a good starting point.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.linuxtrainingacademy.com/linux-commands-cheat-sheet/&quot;&gt;Linux command line cheat sheet&lt;/a&gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Equally likely is the probability that you will be working with RNA-seq techniques,
+below are some resources that will give background information on dry lab and wet 
+lab techniques
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.embopress.org/doi/full/10.15252/msb.20188746&quot;&gt;Current best practices in single-cell RNA-seq analysis: a tutorial&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.nature.com/articles/s41587-020-0469-4&quot;&gt;Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://osca.bioconductor.org&quot;&gt;Ochestrating Single-Cell Analysis with Bioconductor&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Getting Started!</summary></entry></feed>
