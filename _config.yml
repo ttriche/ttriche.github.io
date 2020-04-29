@@ -25,10 +25,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   the Triche Lab. If you have any further questions do not hesitate
   to contact members of the lab.
 <<<<<<< HEAD
+<<<<<<< HEAD
 baseurl: "Trichelabonboarding.github.io" # the subpath of your site, e.g. /blog
 =======
 baseurl: "trichelab" # the subpath of your site, e.g. /blog
 >>>>>>> 2ec0568 (Add files via upload)
+=======
+baseurl: "Trichelabonboarding" # the subpath of your site, e.g. /blog
+>>>>>>> 44a335b (Update _config.yml)
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: Tim Triche, Jr.
 github_username:  ttriche
