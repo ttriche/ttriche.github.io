@@ -90,4 +90,4 @@ suffer ;-)
 
 [Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects](https://www.nature.com/articles/s41587-020-0469-4)
 
-[Ochestrating Single-Cell Analysis with Bioconductor](https://osca.bioconductor.org)
+[Orchestrating Single-Cell Analysis with Bioconductor](https://osca.bioconductor.org)
