@@ -9,7 +9,7 @@ categories: jekyll update
 
 	First things first, if you're doing dry work, you'll need a GitHub ID.
   
-    set up a GitHub account, if you don't already have one
+    Set up a GitHub account, if you don't already have one
 
 If you are new to GitHub create an account [here](https://github.com/join)
 
@@ -46,7 +46,7 @@ when R/Bioconductor newbies ask me what OS I recommend for package
 development I always say Linux, without hesitation. Unless they want to
 suffer ;-)
 
-[Herve Pages](https://stat.ethz.ch/pipermail/bioc-devel/2020-January/016010.html) Herve Pages
+[Herve Pages](https://stat.ethz.ch/pipermail/bioc-devel/2020-January/016010.html)
 
     Whatever you use, put a lot of RAM in it, and execute your long-running 
     jobs on HPC or AWS so that you don't lock up your own machine and miss 
@@ -70,13 +70,13 @@ suffer ;-)
 	not worked with R, and/or have no coding experience, the following links may help
 	get you started,
 
-[Download R](https://repo.miserver.it.umich.edu/cran/)
+[Download R for Windows](https://repo.miserver.it.umich.edu/cran/)
 
 [Download the free version of RStudio](https://rstudio.com/products/rstudio/download/#download)
 
 [Free Basic R Tutorials](https://www.udemy.com/course/r-basics/)
 
-	There is also a high chance that you will be working with command line, 
+	There is also a good chance that you will be working with command line, 
 	"5 – FILE AND DIRECTORY COMMANDS" is a good starting point.
 
 	
@@ -84,10 +84,10 @@ suffer ;-)
 
 	Equally likely is the probability that you will be working with RNA-seq techniques,
 	below are some resources that will give background information on dry lab and wet 
-	lab techniques
+	lab techniques.
 
 [Current best practices in single-cell RNA-seq analysis: a tutorial](https://www.embopress.org/doi/full/10.15252/msb.20188746)
 
 [Benchmarking Single-Cell RNA Sequencing Protocols for Cell Atlas Projects](https://www.nature.com/articles/s41587-020-0469-4)
 
-[Ochestrating Single-Cell Analysis with Bioconductor](https://osca.bioconductor.org)
+[Orchestrating Single-Cell Analysis with Bioconductor](https://osca.bioconductor.org)
