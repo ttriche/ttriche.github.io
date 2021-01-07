@@ -1,25 +1,81 @@
 <html>
   <head>
-    <title> Hi!  This is a very rough draft of a lab onboarding page! </title>
+    <title> 2021 onboarding: less bad than 2020 </title>
   </head>
   <body>
     
-    <h1> Let's ring in 2020 by documenting our onboarding guidelines! </h1>
-
+    <h1>Preliminaries</h1>
     <p>
-    This is a change made on July 6th, 2020.
+    Mostly reading you can do at home or before rotating/interning/etc.
     </p>
 
+    <h2>Background reading, setup, etc.</h2>
     <p>
-    Since good artists copy and great artists steal, I propose we copy some 
-    great arti^H^H^H^Hscientists and steal their stuff.
+    We are a wet and dry lab, so we have some background suggestions for both. 
     </p>
 
+    <h3> Dry </h3>
     <p>
-    <em>
-      Todo: put this into Jekyll, markdown, or anything that avoids mighty vim!
-    </em>
+    The dry background changes but, assuming you have some familiarity with 
+    programming, statistics <i>(machine learning, data science, whatever)</i>,
+    and experimental design, the following are good starting points:
+    <ul>
+      <li><b>Data- and compute-intensive inference (stats/ML/data science)</b>:
+        <a href="http://web.stanford.edu/class/bios221/book/"
+           id="MSFB">Modern Statistics for Biology</a><br />
+         Other useful starting points exist (ISL/ESL, data science titles in 
+         python, etc.), of couse. If your answer to everything is to throw a 
+         variational autoencoder or DNN/CNN/LSTM at it, either you're used to
+         working on larger datsets than we usually do, or maybe overcomplicating
+         things. Either way, flip through the chapters to make sure you have 
+         the basics nailed down &amp; can produce useful figures from your data.
+      </li>
+
+      <li><b>Functional/epigenomic analysis (ChIPseq/RNAseq/BSseq):</b>
+        <a href="https://compgenomr.github.io/book/" 
+           id="CGIR">Computational Genomics in R</a><br />
+         Altuna does a GREAT job explaining matrix factorization, for example, 
+         and there is an unusual emphasis on DNA methylation analysis, which 
+         can be helpful when looking at cell-free nucleic acids (for example). 
+         Some of the multivariate models for sequential data (notably ChromHMM) 
+         are treated very briefly, but you can read the papers for those, or
+         supplement with something like <a href="https://www.udacity.com/course/intro-to-artificial-intelligence--cs271">Stanford CS271</a>.
+      </li>
+
+      <li><b>Single cell sequencing analysis (plate-seq is similar to bulk):</b>
+        <a href="https://bioconductor.org/books/release/OSCA/" 
+          id="OSCA">Orchestrating Single Cell Analyses</a><br />
+        The general principles are the same in R and Python, and in fact 
+        we go back and forth between the two quite regularly (e.g. 
+        <a href="https://github.com/trichelab/velocessor">velocessor</a> calls
+        <a href="https://github.com/theislab/scvelo/">scvelo</a>).
+        Many if not most of the same principles apply to flow, CyTOF, and CITE,
+        which is handy, since we index sort and compare to all of the above.
+      </li>
+    </ul> 
     </p>
+
+    <h3> Wet </h3>
+    <p>
+    The 3-volume set of Molecular Cloning is in bay 16, and the videos for 
+    various (strange and/or wonderful) protocols are on Google Drive, which 
+    is something to which you ought to have access. If not, email Mary. If you
+    have specific protocol questions, email Mary, or whoever optimized the
+    protocol. For context ("why are you doing this insane thing"), Tim may or 
+    may not be a useful source. For practical wet bench questions, ask Mary. 
+    </p>
+
+    <h3> Neither/Both </h3>
+    <p>
+    For papers, proposals, and general reference, we like Google Docs and 
+    Paperpile (the latter in part because some or all of a person's references
+    can be shared and synchronized easily with others, as with Tim's own pile 
+    and the trichelab Paperpile account). The "shared" account is meant to 
+    facilitate "live" links and bibliographies in collaborative work; if you 
+    end up using Paperpile continuously for proposals and reference storage,
+    we will get another license for your personal use (just ask). 
+    </p>
+
 
     <h1> PROBLEM BASED LEARNING OPPORTUNITY! </h1>
     <p> 
@@ -91,14 +147,32 @@
     </em>
     <br />
 
+    <h1> universal truths about hardware </h1>
+    <p>
     Whatever you use, put a lot of RAM in it, and execute your long-running 
     jobs on HPC or AWS so that you don't lock up your own machine and miss 
     deadlines, panic, etc.  Local machines are for exploration and development, 
     ONLY, and if you don't have multiple copies/backups of code/data/documents
     (ideally version controlled), it must not be very important.  
+    </p>
 
-    <br />
+    <h1> Random tips/insights/suggestions </h1>
+    <p>
+    Use screen or tmux for interactive sessions on HPC so you don't lose work.
+    </p>
 
+    <p>
+    The sooner you start packaging your code, the easier your life will become:
+    <ul>
+      <li>If you use a piece of code twice, make it a function</li>
+      <li>If you use a function thrice, make it into a package or library</li>
+      <li>If other people use your library, aim it at CRAN, pypi, or bioc</li>
+    </ul>
+    Ha ha only serious. Good habits can help to prevent bad situations, whether
+    you are working at the bench or the keyboard (or both). Develop good habits.
+    </p>
+
+    <p>
     The best way I know of to ensure that code, experiments, and manuscripts 
     (work products) are durable and reproducible is to automate them, and then 
     set up continuous integration (for code products) so their reproducibility 
@@ -107,7 +181,17 @@
     or GitHub Actions can do it for your code/analyses. Get used to it; it
     sucks to set up but it's a lot better than trying to recreate everything 
     from scratch when a reviewer squawks 18 months from now. 
+    </p>
 
+    <h1> Finished &gt;&gt; perfect </h1>
+
+    <p>
+    Sometimes you will need to compromise in order to hit a deadline or
+    present in a timely manner. That's fine. The goal of developing good habits 
+    is to ensure that you can finish projects, not to strive for perfection.
+    <b>Finished is better than perfect.</b> But don't fool yourself about 
+    whether a project is finished -- our job is to communicate useful advances
+    to the rest of the world, which means <i>we have to publish the results.</i>
     </p>
 
     <p> 
