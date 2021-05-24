@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/trichelab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/trichelab.github.io/" rel="alternate" type="text/html" /><updated>2021-05-24T13:25:12-04:00</updated><id>http://localhost:4000/trichelab.github.io/feed.xml</id><title type="html">Triche Laboratory</title><subtitle>The Triche Laboratory develops statistical and mathematical methods to dissect pediatric and adult cancers, with a focus on cancers of the blood in children.</subtitle><entry><title type="html">Welcome to Triche Lab!</title><link href="http://localhost:4000/trichelab.github.io/jekyll/update/2021/05/21/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Triche Lab!" /><published>2021-05-21T14:53:03-04:00</published><updated>2021-05-21T14:53:03-04:00</updated><id>http://localhost:4000/trichelab.github.io/jekyll/update/2021/05/21/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/trichelab.github.io/jekyll/update/2021/05/21/welcome-to-jekyll.html">&lt;html&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="trichelab.github.io/trichelab.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="trichelab.github.io/trichelab.github.io/" rel="alternate" type="text/html" /><updated>2021-05-24T13:35:46-04:00</updated><id>trichelab.github.io/trichelab.github.io/feed.xml</id><title type="html">Triche Laboratory</title><subtitle>The Triche Laboratory develops statistical and mathematical methods to dissect pediatric and adult cancers, with a focus on cancers of the blood in children.</subtitle><entry><title type="html">Welcome to Triche Lab!</title><link href="trichelab.github.io/trichelab.github.io/jekyll/update/2021/05/21/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Triche Lab!" /><published>2021-05-21T14:53:03-04:00</published><updated>2021-05-21T14:53:03-04:00</updated><id>trichelab.github.io/trichelab.github.io/jekyll/update/2021/05/21/welcome-to-jekyll</id><content type="html" xml:base="trichelab.github.io/trichelab.github.io/jekyll/update/2021/05/21/welcome-to-jekyll.html">&lt;html&gt;
   &lt;head&gt;
     &lt;title&gt; 2021 onboarding: less bad than 2020 &lt;/title&gt;
   &lt;/head&gt;
@@ -27,8 +27,7 @@
           A 1:1 meeting is for long-term goals (fellowships, grants, papers, 
           career choices), calibrating expectations, and to ensure our working
           arrangement remains mutually beneficial. If you are unfamiliar with 
-          &lt;a href=&quot;https://clincancerres.aacrjournals.org/content/5/9/2281&quot;
-             &gt;Simone's Maxims&lt;/a&gt;, please read them now.
+          &lt;a href=&quot;https://clincancerres.aacrjournals.org/content/5/9/2281&quot;&gt;Simone's Maxims&lt;/a&gt;, please read them now.
         &lt;/li&gt;
         &lt;li&gt;
           &lt;b&gt;Everyone must attend lab meetings on Fridays at 12pm.&lt;/b&gt; If you
@@ -73,8 +72,7 @@
     and experimental design, the following are good starting points:
     &lt;ul&gt;
       &lt;li&gt;&lt;b&gt;Data- and compute-intensive inference (stats/ML/data science)&lt;/b&gt;:
-        &lt;a href=&quot;http://web.stanford.edu/class/bios221/book/&quot;
-           id=&quot;MSFB&quot;&gt;Modern Statistics for Biology&lt;/a&gt;&lt;br /&gt;
+        &lt;a href=&quot;http://web.stanford.edu/class/bios221/book/&quot; id=&quot;MSFB&quot;&gt;Modern Statistics for Biology&lt;/a&gt;&lt;br /&gt;
          Other useful starting points exist (ISL/ESL, data science titles in 
          python, etc.). There is nothing wrong with using a VAE or *NN to learn 
          a model, but there is also no benefit to using one when a simpler model
@@ -84,8 +82,7 @@
       &lt;/li&gt;
 
       &lt;li&gt;&lt;b&gt;Functional/epigenomic analysis (ChIPseq/RNAseq/BSseq):&lt;/b&gt;
-        &lt;a href=&quot;https://compgenomr.github.io/book/&quot; 
-           id=&quot;CGIR&quot;&gt;Computational Genomics in R&lt;/a&gt;&lt;br /&gt;
+        &lt;a href=&quot;https://compgenomr.github.io/book/&quot; id=&quot;CGIR&quot;&gt;Computational Genomics in R&lt;/a&gt;&lt;br /&gt;
          Altuna does a GREAT job explaining matrix factorization, for example, 
          and there is an unusual emphasis on DNA methylation analysis, which 
          can be helpful when looking at cell-free nucleic acids (for example). 
@@ -95,8 +92,7 @@
       &lt;/li&gt;
 
       &lt;li&gt;&lt;b&gt;Single cell sequencing analysis (plate-seq is similar to bulk):&lt;/b&gt;
-        &lt;a href=&quot;https://bioconductor.org/books/release/OSCA/&quot; 
-          id=&quot;OSCA&quot;&gt;Orchestrating Single Cell Analyses&lt;/a&gt;&lt;br /&gt;
+        &lt;a href=&quot;https://bioconductor.org/books/release/OSCA/&quot; id=&quot;OSCA&quot;&gt;Orchestrating Single Cell Analyses&lt;/a&gt;&lt;br /&gt;
         The general principles are the same in R and Python, and in fact 
         we go back and forth between the two quite regularly (e.g. 
         &lt;a href=&quot;https://github.com/trichelab/velocessor&quot;&gt;velocessor&lt;/a&gt; calls
@@ -245,5 +241,7 @@
     &lt;p&gt; 
     Students, staff, trainees: add what you like here. &lt;em&gt; and open a PR &lt;/em&gt;
     &lt;/p&gt; 
-  &lt;/body&gt;
-&lt;/html&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">2021 onboarding: less bad than 2020</summary></entry></feed>
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+
+&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">2021 onboarding: less bad than 2020</summary></entry></feed>
