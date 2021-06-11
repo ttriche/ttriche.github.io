@@ -5,6 +5,8 @@ date:   2021-05-21 14:53:03 -0400
 categories: jekyll update
 ---
 
+<html>
+  <body>
     <i>Are you new to the lab?</i>
     If so, <a href="#PBL">skip right to your first task</a>, then come back. 
 
