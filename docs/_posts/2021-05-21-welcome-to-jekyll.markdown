@@ -4,11 +4,6 @@ title:  "Welcome to Triche Lab!"
 date:   2021-05-21 14:53:03 -0400
 categories: jekyll update
 ---
-<html>
-  <head>
-    <title> 2021 onboarding: less bad than 2020 </title>
-  </head>
-  <body>
 
     <i>Are you new to the lab?</i>
     If so, <a href="#PBL">skip right to your first task</a>, then come back. 
@@ -251,6 +246,3 @@ categories: jekyll update
     <p> 
     Students, staff, trainees: add what you like here. <em> and open a PR </em>
     </p> 
-  </body>
-</html>
-
